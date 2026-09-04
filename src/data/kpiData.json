@@ -1,0 +1,865 @@
+{
+  "metaGeralEconomia": 1529281.38,
+  "realizadoEconomiaTotal": 44997.56,
+  "percentualAtingido": 2.94,
+  "metaFabrica": 879281.38,
+  "savingsByMonth": [
+    {
+      "month": "Jan",
+      "meta": 127440,
+      "realizado": 15523.75,
+      "acumulado": 15523.75,
+      "descricao": "Unidade Hidráulica / Reuso Ferramentas"
+    },
+    {
+      "month": "Fev",
+      "meta": 254880,
+      "realizado": 10354.75,
+      "acumulado": 25878.5,
+      "descricao": "Lub.Ext. 4º eixo / Reuso Ferramentas"
+    },
+    {
+      "month": "Mar",
+      "meta": 382320,
+      "realizado": 6425.85,
+      "acumulado": 32304.35,
+      "descricao": "Redução Compra Ferramentas / Reuso"
+    },
+    {
+      "month": "Abr",
+      "meta": 509760,
+      "realizado": 5685.32,
+      "acumulado": 37989.67,
+      "descricao": "Reuso Ferramentas + Otimização Cestas Básicas"
+    },
+    {
+      "month": "Mai",
+      "meta": 637200,
+      "realizado": 3350,
+      "acumulado": 41339.67,
+      "descricao": "Manut. Interna do Compressor"
+    },
+    {
+      "month": "Jun",
+      "meta": 764640,
+      "realizado": 680,
+      "acumulado": 42019.67,
+      "descricao": "Reúso de Ferramentas / Insumos"
+    },
+    {
+      "month": "Jul",
+      "meta": 892080,
+      "realizado": 2977.89,
+      "acumulado": 44997.56,
+      "descricao": "Reúso de Ferramentas / Insumos"
+    },
+    {
+      "month": "Ago",
+      "meta": 1019520,
+      "realizado": 0,
+      "acumulado": 44997.56,
+      "descricao": "Projetado"
+    },
+    {
+      "month": "Set",
+      "meta": 1146960,
+      "realizado": 0,
+      "acumulado": 44997.56,
+      "descricao": "Projetado"
+    },
+    {
+      "month": "Out",
+      "meta": 1274400,
+      "realizado": 0,
+      "acumulado": 44997.56,
+      "descricao": "Projetado"
+    },
+    {
+      "month": "Nov",
+      "meta": 1401840,
+      "realizado": 0,
+      "acumulado": 44997.56,
+      "descricao": "Projetado"
+    },
+    {
+      "month": "Dez",
+      "meta": 1529281.38,
+      "realizado": 0,
+      "acumulado": 44997.56,
+      "descricao": "Projetado"
+    }
+  ],
+  "savingsByDept": [
+    {
+      "name": "Manutenção",
+      "valor": 22519,
+      "percent": 50,
+      "color": "#3b82f6",
+      "icon": "Wrench"
+    },
+    {
+      "name": "Processos & Ferramentas",
+      "valor": 13419,
+      "percent": 29.8,
+      "color": "#10b981",
+      "icon": "Cpu"
+    },
+    {
+      "name": "Compras & Negociação",
+      "valor": 6261.67,
+      "percent": 13.9,
+      "color": "#f59e0b",
+      "icon": "ShoppingBag"
+    },
+    {
+      "name": "Insumos & Facilities",
+      "valor": 2797.89,
+      "percent": 6.3,
+      "color": "#8b5cf6",
+      "icon": "Building2"
+    }
+  ],
+  "executiveCards": [
+    {
+      "id": "saving_geral",
+      "title": "Redução de Custo Geral",
+      "category": "Financeiro / Estratégico",
+      "meta": "R$ 1.529.281,38",
+      "realizado": "R$ 44.997,56",
+      "unit": "R$",
+      "percentual": "2,94%",
+      "status": "warning",
+      "statusLabel": "Em evolução",
+      "trend": "+R$ 2.977 em Jul",
+      "detalhe": "Savings concentrados em Manutenção e Ferramentas de Usinagem"
+    },
+    {
+      "id": "oee",
+      "title": "OEE Geral da Fábrica",
+      "category": "Produtividade Fabril",
+      "meta": "90,0%",
+      "realizado": "78,12%",
+      "unit": "%",
+      "percentual": "86,8% da meta",
+      "status": "warning",
+      "statusLabel": "Abaixo da meta",
+      "trend": "Média de 82% no 1º semestre",
+      "detalhe": "Queda em Julho (52,2%) impactada por paradas programadas"
+    },
+    {
+      "id": "qualidade_ppm",
+      "title": "Qualidade Interna (Usin+Mont)",
+      "category": "Qualidade Fabril",
+      "meta": "4.000 PPM",
+      "realizado": "2.964 PPM",
+      "unit": "PPM",
+      "percentual": "Excelente (-25,9%)",
+      "status": "success",
+      "statusLabel": "Meta Atingida",
+      "trend": "Dentro do limite seguro em 5 dos 7 meses",
+      "detalhe": "Meta de PPM é limite máximo; realizado menor indica melhor qualidade"
+    },
+    {
+      "id": "iqf_fornecedores",
+      "title": "IQF - Qualidade Fornecedores",
+      "category": "Suprimentos / Compras",
+      "meta": "90,0%",
+      "realizado": "94,13%",
+      "unit": "%",
+      "percentual": "104,6% da meta",
+      "status": "success",
+      "statusLabel": "Acima da Meta",
+      "trend": "Pico de 96,6% em Abril",
+      "detalhe": "Excelente conformidade no recebimento de materiais e peças"
+    },
+    {
+      "id": "esg_treinamento",
+      "title": "Capacitação & Treinamentos ESG",
+      "category": "Social / Pessoas",
+      "meta": "720 Horas",
+      "realizado": "624,3 Horas",
+      "unit": "Horas",
+      "percentual": "86,7% atingido",
+      "status": "success",
+      "statusLabel": "Rumo aos 100%",
+      "trend": "624h acumuladas no 1º semestre",
+      "detalhe": "Treinamentos operacionais, segurança e conformidade técnica"
+    },
+    {
+      "id": "faturamento",
+      "title": "Faturamento Total Comercial",
+      "category": "Comercial & Vendas",
+      "meta": "R$ 19.000.000",
+      "realizado": "R$ 4.716.287",
+      "unit": "R$",
+      "percentual": "24,8% da meta anual",
+      "status": "info",
+      "statusLabel": "Em andamento",
+      "trend": "ZF Brasil R$ 3,68M | Varejo R$ 982k",
+      "detalhe": "ZF Brasil é o principal canal de receita automotiva/industrial"
+    }
+  ],
+  "monthlyMetrics": [
+    {
+      "month": "Jan",
+      "oee": 83.19,
+      "oeeMeta": 90,
+      "ppm": 1517,
+      "ppmMeta": 4000,
+      "iqf": 90.5,
+      "iqfMeta": 90,
+      "refugo": 0.29,
+      "refugoMeta": 0.38,
+      "absenteismo": 3.1,
+      "turnover": 5.88,
+      "energiaCustoPeca": 0.317,
+      "aguaCustoPeca": 0.05,
+      "faturamento": 697099
+    },
+    {
+      "month": "Fev",
+      "oee": 81.54,
+      "oeeMeta": 90,
+      "ppm": 4765,
+      "ppmMeta": 4000,
+      "iqf": 92.33,
+      "iqfMeta": 90,
+      "refugo": 0.27,
+      "refugoMeta": 0.38,
+      "absenteismo": 2.27,
+      "turnover": 3.13,
+      "energiaCustoPeca": 0.473,
+      "aguaCustoPeca": 0.13,
+      "faturamento": 639786
+    },
+    {
+      "month": "Mar",
+      "oee": 82.13,
+      "oeeMeta": 90,
+      "ppm": 4350,
+      "ppmMeta": 4000,
+      "iqf": 94.91,
+      "iqfMeta": 90,
+      "refugo": 0.5,
+      "refugoMeta": 0.38,
+      "absenteismo": 1.95,
+      "turnover": 5.32,
+      "energiaCustoPeca": 0.405,
+      "aguaCustoPeca": 0.08,
+      "faturamento": 862933
+    },
+    {
+      "month": "Abr",
+      "oee": 83.45,
+      "oeeMeta": 90,
+      "ppm": 1446,
+      "ppmMeta": 4000,
+      "iqf": 96.63,
+      "iqfMeta": 90,
+      "refugo": 0.28,
+      "refugoMeta": 0.38,
+      "absenteismo": 1.84,
+      "turnover": 2.22,
+      "energiaCustoPeca": 0.448,
+      "aguaCustoPeca": 0.07,
+      "faturamento": 609528
+    },
+    {
+      "month": "Mai",
+      "oee": 81.61,
+      "oeeMeta": 90,
+      "ppm": 3317,
+      "ppmMeta": 4000,
+      "iqf": 95.67,
+      "iqfMeta": 90,
+      "refugo": 0.26,
+      "refugoMeta": 0.38,
+      "absenteismo": 3.9,
+      "turnover": 1.14,
+      "energiaCustoPeca": 0.463,
+      "aguaCustoPeca": 0.04,
+      "faturamento": 721968
+    },
+    {
+      "month": "Jun",
+      "oee": 83.04,
+      "oeeMeta": 90,
+      "ppm": 2386,
+      "ppmMeta": 4000,
+      "iqf": 94.72,
+      "iqfMeta": 90,
+      "refugo": 0.48,
+      "refugoMeta": 0.38,
+      "absenteismo": 1.23,
+      "turnover": 8.97,
+      "energiaCustoPeca": 0.684,
+      "aguaCustoPeca": 0.04,
+      "faturamento": 524942
+    },
+    {
+      "month": "Jul",
+      "oee": 52.24,
+      "oeeMeta": 90,
+      "ppm": 2964,
+      "ppmMeta": 4000,
+      "iqf": 94.13,
+      "iqfMeta": 90,
+      "refugo": 0.3,
+      "refugoMeta": 0.38,
+      "absenteismo": 0.19,
+      "turnover": 0,
+      "energiaCustoPeca": 4.041,
+      "aguaCustoPeca": 0.31,
+      "faturamento": 660030
+    }
+  ],
+  "esg": {
+    "environmental": {
+      "score": 84,
+      "energia": {
+        "metaCustoPeca": 0.5,
+        "mediaRealizadaPeca": 0.4,
+        "status": "success",
+        "gastoTotalMensalMedio": "R$ 24.430,92",
+        "consumoKwhMedio": "38.450 kWh",
+        "destaque": "Custo médio por peça abaixo do teto de R$ 0,50 na maioria dos meses."
+      },
+      "agua": {
+        "metaCustoPeca": 0.15,
+        "mediaRealizadaPeca": 0.09,
+        "status": "success",
+        "gastoTotalMensalMedio": "R$ 3.687,68",
+        "consumoM3Medio": "98,4 m³",
+        "destaque": "Economia hídrica consistente: custo por peça 40% abaixo do teto orçado."
+      },
+      "residuos": {
+        "metaCustoPeca": 0.06,
+        "mediaRealizadaPeca": 0.06,
+        "status": "success",
+        "descarteMedioLitros": "2.400 Litros/trimestre",
+        "custoDescarteMedio": "R$ 1.628,57/mês",
+        "destaque": "Controle de óleos perigosos e sucatas metálicas 100% regularizados com CADRI."
+      }
+    },
+    "social": {
+      "score": 88,
+      "absenteismo": {
+        "meta": "3,00%",
+        "realizado": "2,44%",
+        "status": "success",
+        "statusDesc": "Dentro da meta",
+        "destaque": "Redução progressiva de faltas injustificadas no semestre."
+      },
+      "turnover": {
+        "meta": "5,00%",
+        "realizado": "4,78%",
+        "status": "success",
+        "statusDesc": "Meta atingida",
+        "destaque": "Rotatividade controlada; pico isolado em Junho (8,9%) já reestabilizado."
+      },
+      "segurancaTrabalho": {
+        "norma": "NBR 14283:2023",
+        "metaTaxaGravidade": 500,
+        "realizadoMedio": 533,
+        "status": "warning",
+        "classificacao": "Boa (Exceto incidente pontual de Maio)",
+        "detalhe": "Dias perdidos: Zero em Jan, Fev, Mar, Abr, Jun e Jul. Ocorrência única em Maio gerou afastamento."
+      },
+      "treinamento": {
+        "metaHorasAno": 720,
+        "realizadoHoras": 624.3,
+        "percentual": "86,7%",
+        "status": "success",
+        "statusDesc": "Excelente",
+        "detalhe": "Formação em NR-12, usinagem CNC, 5S e boas práticas operacionais."
+      }
+    },
+    "governance": {
+      "score": 95,
+      "iqfFornecedores": {
+        "meta": "90,0%",
+        "realizado": "94,13%",
+        "status": "success"
+      },
+      "auditoriasConformidade": {
+        "meta": "90,0%",
+        "realizado": "89,50%",
+        "status": "success"
+      },
+      "pilares": [
+        {
+          "id": 1,
+          "nome": "Organograma e Matriz de Responsabilidades",
+          "status": "Ativo & Atualizado",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 2,
+          "nome": "Plano de Cargos, Salários e Sucessão",
+          "status": "Em Revisão Semestral",
+          "progresso": 95,
+          "compliant": true
+        },
+        {
+          "id": 3,
+          "nome": "Política de Conformidade Trabalhista e Conduta Ética",
+          "status": "Homologado",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 4,
+          "nome": "Política Anticorrupção & Conflito de Interesses",
+          "status": "Certificado",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 5,
+          "nome": "Controles Financeiros & Auditoria de Fluxo de Caixa",
+          "status": "Auditado Mensalmente",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 6,
+          "nome": "Indicadores de Desempenho (Cockpit Estratégico)",
+          "status": "Implementado (100%)",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 7,
+          "nome": "Transparência nas Decisões Estratégicas & Conselho",
+          "status": "Reuniões Mensais Registradas",
+          "progresso": 100,
+          "compliant": true
+        },
+        {
+          "id": 8,
+          "nome": "Homologação e Auditoria de Fornecedores Críticos (IQF)",
+          "status": "Monitorado (94,1% aprovação)",
+          "progresso": 100,
+          "compliant": true
+        }
+      ]
+    }
+  },
+  "esgProjects": [
+    {
+      "id": "PRJ-ESG-01",
+      "title": "Transição Energética & Otimização de Demanda Solar",
+      "pillar": "Environmental",
+      "pilarLabel": "Ambiental (E)",
+      "ods": [
+        "ODS 7 - Energia Limpa",
+        "ODS 13 - Ação Climática"
+      ],
+      "status": "Em Implantação",
+      "progresso": 65,
+      "orcamento": 180000,
+      "savingPrevistoAnual": 72000,
+      "responsavel": "Engenharia / Facilities",
+      "prazo": "Novembro/2026",
+      "descricao": "Instalação de usina fotovoltaica para compensação de horário de ponta e migração para o Mercado Livre de Energia.",
+      "impacto": "Redução estimada de 34% no custo da tarifa e -18 toneladas de CO2/ano."
+    },
+    {
+      "id": "PRJ-ESG-02",
+      "title": "Reúso de Água e Sistema Fechado de Emulsão de Usinagem",
+      "pillar": "Environmental",
+      "pilarLabel": "Ambiental (E)",
+      "ods": [
+        "ODS 6 - Água Potável e Saneamento",
+        "ODS 12 - Consumo Responsável"
+      ],
+      "status": "Operacional",
+      "progresso": 100,
+      "orcamento": 45000,
+      "savingPrevistoAnual": 28000,
+      "responsavel": "Processos / Manutenção",
+      "prazo": "Concluído em Maio/2026",
+      "descricao": "Decantador e skimmer automático para reaproveitamento do fluido de corte solúvel nos centros de usinagem.",
+      "impacto": "Economia de 55.000 litros de água/ano e aumento de vida útil do óleo solúvel em 3x."
+    },
+    {
+      "id": "PRJ-ESG-03",
+      "title": "Programa Aterro Zero: Logística Reversa de Óleos & Sucatas",
+      "pillar": "Environmental",
+      "pilarLabel": "Ambiental (E)",
+      "ods": [
+        "ODS 12 - Consumo e Produção Responsáveis"
+      ],
+      "status": "Em Implantação",
+      "progresso": 80,
+      "orcamento": 25000,
+      "savingPrevistoAnual": 36000,
+      "responsavel": "Qualidade / ESG",
+      "prazo": "Outubro/2026",
+      "descricao": "Contrato de coprocessamento com refino e venda valorizada de cavaco metálico compactado para siderúrgicas.",
+      "impacto": "100% de destinação nobre de resíduos de torneamento e fresamento."
+    },
+    {
+      "id": "PRJ-ESG-04",
+      "title": "Escola de Fábrica: Inclusão Técnica e Treinamento Contínuo",
+      "pillar": "Social",
+      "pilarLabel": "Social (S)",
+      "ods": [
+        "ODS 4 - Educação de Qualidade",
+        "ODS 8 - Trabalho Decente"
+      ],
+      "status": "Em Andamento",
+      "progresso": 85,
+      "orcamento": 32000,
+      "savingPrevistoAnual": 19000,
+      "responsavel": "RH / Liderança Fabril",
+      "prazo": "Dezembro/2026",
+      "descricao": "Capacitação interna com instrutores seniores para operadores júnior, focando em segurança NR-12 e redução de setup.",
+      "impacto": "624 horas de treinamento já realizadas, com redução de turnover em 42% no chão de fábrica."
+    },
+    {
+      "id": "PRJ-ESG-05",
+      "title": "Adequação e Certificação ISO 14001:2015 & NBR 14283",
+      "pillar": "Governance",
+      "pilarLabel": "Governança (G)",
+      "ods": [
+        "ODS 16 - Paz, Justiça e Instituições Eficazes"
+      ],
+      "status": "Planejado",
+      "progresso": 40,
+      "orcamento": 50000,
+      "savingPrevistoAnual": 45000,
+      "responsavel": "Qualidade & Diretoria",
+      "prazo": "Março/2027",
+      "descricao": "Estruturação formal do Sistema de Gestão Integrada (SGI) para atendimento a montadoras globais e clientes exigentes como ZF.",
+      "impacto": "Abertura para novos contratos de exportação e redução de custos com seguros industriais."
+    },
+    {
+      "id": "PRJ-ESG-06",
+      "title": "Portal de Transparência de Fornecedores & Auditoria ESG",
+      "pillar": "Governance",
+      "pilarLabel": "Governança (G)",
+      "ods": [
+        "ODS 9 - Indústria, Inovação e Infraestrutura",
+        "ODS 17 - Parcerias"
+      ],
+      "status": "Em Implantação",
+      "progresso": 70,
+      "orcamento": 15000,
+      "savingPrevistoAnual": 22000,
+      "responsavel": "Compras / TI",
+      "prazo": "Novembro/2026",
+      "descricao": "Plataforma web para avaliação automática de homologação, compliance trabalhista e IQF dos 50 fornecedores críticos.",
+      "impacto": "Elevação do IQF médio de 90% para 94,1% e mitigação de risco de paralisação por insumos."
+    }
+  ],
+  "departments": [
+    {
+      "id": "fabrica",
+      "name": "Gestão Fábrica",
+      "icon": "Factory",
+      "color": "blue",
+      "kpis": [
+        {
+          "label": "OEE Tecnologia",
+          "meta": "90,0%",
+          "atual": "78,1%",
+          "status": "warning"
+        },
+        {
+          "label": "Redução de Custo Geral",
+          "meta": "R$ 879.281",
+          "atual": "R$ 44.998",
+          "status": "warning"
+        },
+        {
+          "label": "Qualidade Interna (PPM)",
+          "meta": "4.000",
+          "atual": "2.964",
+          "status": "success"
+        },
+        {
+          "label": "Taxa de Gravidade (Dias)",
+          "meta": "≤ 500",
+          "atual": "533",
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "compras",
+      "name": "Compras & Suprimentos",
+      "icon": "ShoppingBag",
+      "color": "amber",
+      "kpis": [
+        {
+          "label": "Índice IQF Fornecedores",
+          "meta": "90,0%",
+          "atual": "94,1%",
+          "status": "success"
+        },
+        {
+          "label": "Atendimento Pedido x Entrega",
+          "meta": "100%",
+          "atual": "73,6%",
+          "status": "warning"
+        },
+        {
+          "label": "Saving de Negociação",
+          "meta": "R$ 100.000",
+          "atual": "R$ 24.629",
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "qualidade",
+      "name": "Qualidade",
+      "icon": "CheckCircle2",
+      "color": "emerald",
+      "kpis": [
+        {
+          "label": "PPM Usinagem",
+          "meta": "4.000",
+          "atual": "3.468",
+          "status": "success"
+        },
+        {
+          "label": "PPM Montagem",
+          "meta": "4.000",
+          "atual": "2.459",
+          "status": "success"
+        },
+        {
+          "label": "Qualidade Cliente ZF/Varejo",
+          "meta": "800 PPM",
+          "atual": "4.892 PPM",
+          "status": "danger"
+        },
+        {
+          "label": "Índice Reclamação Clientes",
+          "meta": "1,50%",
+          "atual": "0,016%",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "id": "manutencao",
+      "name": "Manutenção Industrial",
+      "icon": "Wrench",
+      "color": "purple",
+      "kpis": [
+        {
+          "label": "Redução Custo Manutenção",
+          "meta": "R$ 250.475",
+          "atual": "R$ 22.519",
+          "status": "warning"
+        },
+        {
+          "label": "Custo Manut. / Faturamento",
+          "meta": "2,50%",
+          "atual": "2,19%",
+          "status": "success"
+        },
+        {
+          "label": "Custo Manut. / Produção",
+          "meta": "R$ 3,00",
+          "atual": "R$ 0,25/peça",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "id": "processos",
+      "name": "Processos & Engenharia Fabril",
+      "icon": "Cpu",
+      "color": "teal",
+      "kpis": [
+        {
+          "label": "Taxa de Refugo",
+          "meta": "0,38%",
+          "atual": "0,30%",
+          "status": "success"
+        },
+        {
+          "label": "Aprovação Auditorias",
+          "meta": "90,0%",
+          "atual": "89,5%",
+          "status": "success"
+        },
+        {
+          "label": "Saving Ferramentas",
+          "meta": "R$ 402.391",
+          "atual": "R$ 13.419",
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "almoxarifado",
+      "name": "Almoxarifado & Estoques",
+      "icon": "Boxes",
+      "color": "indigo",
+      "kpis": [
+        {
+          "label": "Acuracidade de Estoque",
+          "meta": "95,0%",
+          "atual": "95,0%",
+          "status": "success"
+        },
+        {
+          "label": "Ruptura de Estoque",
+          "meta": "≤ 1 item",
+          "atual": "0 ocorrências",
+          "status": "success"
+        },
+        {
+          "label": "Divergência Recebimento",
+          "meta": "≤ 1 caso",
+          "atual": "Controlado",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "id": "comercial",
+      "name": "Comercial & Vendas",
+      "icon": "TrendingUp",
+      "color": "rose",
+      "kpis": [
+        {
+          "label": "Faturamento ZF Brasil",
+          "meta": "R$ 12.000.000",
+          "atual": "R$ 3.686.454",
+          "status": "info"
+        },
+        {
+          "label": "Vendas Varejo",
+          "meta": "R$ 5.000.000",
+          "atual": "R$ 982.861",
+          "status": "info"
+        },
+        {
+          "label": "Exportação",
+          "meta": "R$ 2.000.000",
+          "atual": "R$ 46.972",
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "engenharia",
+      "name": "Engenharia de Produto",
+      "icon": "DraftingCompass",
+      "color": "cyan",
+      "kpis": [
+        {
+          "label": "Projetos Implantados",
+          "meta": "48 itens",
+          "atual": "21 itens (44%)",
+          "status": "warning"
+        },
+        {
+          "label": "Tempo Médio de Entrega",
+          "meta": "90 dias",
+          "atual": "82 dias",
+          "status": "success"
+        },
+        {
+          "label": "Saving em Novos Produtos",
+          "meta": "R$ 406.115",
+          "atual": "R$ 74.932 prev.",
+          "status": "info"
+        }
+      ]
+    }
+  ],
+  "actionPlans": [
+    {
+      "id": "ACT-01",
+      "title": "Otimização e Reparo de Unidade Hidráulica",
+      "processo": "Manutenção / Usinagem",
+      "status": "Concluído",
+      "savingRealizado": 12169,
+      "savingPrevisto": 12169,
+      "quem": "Equipe de Manutenção Mecânica",
+      "quando": "Janeiro/2026",
+      "onde": "Setor de Usinagem CNC - Linha 2",
+      "porQue": "Eliminar vazamentos crônicos e perda de pressão hidráulica.",
+      "como": "Substituição de vedações, recalibragem de válvulas de alívio e filtragem de óleo.",
+      "custo": 1800
+    },
+    {
+      "id": "ACT-02",
+      "title": "Lubrificação Externa 4º Eixo & Recondicionamento de Ferramentas",
+      "processo": "Manutenção / Processos",
+      "status": "Concluído",
+      "savingRealizado": 10354.75,
+      "savingPrevisto": 10354.75,
+      "quem": "Liderança de Processos Fabris",
+      "quando": "Fevereiro/2026",
+      "onde": "Centros de Usinagem 4º e 5º Eixo",
+      "porQue": "Aumentar a vida útil de insertos cerâmicos e rolamentos de precisão.",
+      "como": "Instalação de bicos direcionais de lubrificação sob medida e afiação interna de pastilhas.",
+      "custo": 950
+    },
+    {
+      "id": "ACT-03",
+      "title": "Programa de Reúso de Ferramentas de Corte (EVBST/EVROL)",
+      "processo": "Processos / Almoxarifado",
+      "status": "Em Andamento",
+      "savingRealizado": 13419,
+      "savingPrevisto": 25000,
+      "quem": "Engenheiro de Ferramental",
+      "quando": "Março a Dezembro/2026",
+      "onde": "Central de Ferramentas",
+      "porQue": "Reduzir compra de ferramentas novas de alto custo unitário.",
+      "como": "Critério de triagem, reafiação de brocas de metal duro e controle de troca preventiva.",
+      "custo": 3200
+    },
+    {
+      "id": "ACT-04",
+      "title": "Manutenção Interna e Redução de Vazamento do Compressor Central",
+      "processo": "Manutenção / Utilidades",
+      "status": "Concluído",
+      "savingRealizado": 3350,
+      "savingPrevisto": 3350,
+      "quem": "Técnico de Manutenção Pneumática",
+      "quando": "Maio/2026",
+      "onde": "Casa de Compressores e Linha Fabril",
+      "porQue": "Evitar sobrecarga elétrica do motor e ciclos desnecessários de alívio.",
+      "como": "Troca de elemento filtrante interno, revisão de purgadores automáticos e vedação de engates.",
+      "custo": 620
+    },
+    {
+      "id": "ACT-05",
+      "title": "Renegociação de Fornecedores de Insumos e Cestas Básicas",
+      "processo": "Compras / Facilities",
+      "status": "Em Andamento",
+      "savingRealizado": 5685.32,
+      "savingPrevisto": 12000,
+      "quem": "Comprador Pleno",
+      "quando": "Abril a Dezembro/2026",
+      "onde": "Administração / Fábrica",
+      "porQue": "Capturar saving em compras de grande volume e contratos contínuos.",
+      "como": "Cotação tripartite e negociação direta com distribuidor com desconto fixado em contrato.",
+      "custo": 0
+    },
+    {
+      "id": "ACT-06",
+      "title": "Automação de Apontamento OEE e Redução de Setup",
+      "processo": "Engenharia / TI",
+      "status": "A Fazer",
+      "savingRealizado": 0,
+      "savingPrevisto": 48000,
+      "quem": "Especialista em TI Industrial",
+      "quando": "Outubro/2026",
+      "onde": "Todas as máquinas de usinagem",
+      "porQue": "Elevar o OEE de 78% para a meta de 90% através de visibilidade em tempo real.",
+      "como": "Integração de sensores IoT nas saídas PLC das máquinas para registro automático de paradas.",
+      "custo": 14000
+    }
+  ]
+}
