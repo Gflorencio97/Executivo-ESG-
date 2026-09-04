@@ -154,8 +154,8 @@ export default function App() {
       <header className="sticky top-0 z-40 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20 gap-4">
-            {/* Brand / Logo */}
-            <div className="flex items-center gap-3.5">
+            {/* Brand / Logos with Text in between */}
+            <div className="flex items-center gap-2.5 sm:gap-3.5">
               <div className="bg-white/95 px-3 py-1.5 rounded-xl border border-slate-700/80 shadow-md flex items-center justify-center">
                 <img src="/logo.png" alt="Evoluttion" className="h-7 w-auto object-contain" />
               </div>
@@ -171,6 +171,9 @@ export default function App() {
                 <p className="text-[11px] text-slate-400 mt-0.5 hidden sm:block">
                   Redução de Custo Geral • Conformidade & Eficiência Industrial
                 </p>
+              </div>
+              <div className="bg-white/95 p-1 rounded-xl border border-slate-700/80 shadow-md flex items-center justify-center shrink-0">
+                <img src="/selo-sustentabilidade.png" alt="Selo de Sustentabilidade Evoluttion" className="h-8 sm:h-9 w-auto object-contain" />
               </div>
             </div>
 
